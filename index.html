@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSP Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Token của bạn</h1>
+        <p class="balance">161.466,9 <span>TSP</span></p>
+        <div class="check-in">
+            <p>Nhận thưởng khi check-in liên tục 7 ngày</p>
+            <button onclick="checkIn()">Check-In</button>
+        </div>
+        <h2>Tính năng</h2>
+        <div class="features">
+            <button onclick="playGame('farming')">🌱 Farming</button>
+            <button onclick="playGame('daily')">🔑 Mật mã ngày</button>
+            <button onclick="playGame('spin')">🎰 Lucky Spin</button>
+            <button onclick="playGame('mine')">⛏️ Đào vàng</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

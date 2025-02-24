@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000, #3c2a1e);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+h1, h2 {
+    color: gold;
+}
+.balance {
+    font-size: 24px;
+    font-weight: bold;
+}
+button {
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+.features button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
